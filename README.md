@@ -17,11 +17,15 @@ $: npm link
 `yarn link` doesnt seem to work. We are aware of the problem and we are working on it. 
 
 Who, you may ask, is working on it?...
+
 *Top men*
+
 But...
+
 *TOP. MEN.*
 
 3. Do the thing!
+
 From where ever you'd like to place your new project:
 ```bash
 $: app-in-a-box myApp
