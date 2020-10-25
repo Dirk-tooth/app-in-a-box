@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
-    "old-start": "webpack-dev-server --mode=development --open --hot",
+    "oldstart": "webpack-dev-server --mode=development --open --hot",
     "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "app-in-a-box": "./bin/start.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
   },
   "homepage": "https://github.com/Dirk-tooth/app-in-a-box#readme",
   "dependencies": {
+    "fs-extra": "^9.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
